@@ -9,5 +9,6 @@ VPATH= $(foreach src,$(SRC_DIR),$(src))
 	$(CC) -c $< -o $@  $(CFLAGS)
 all: main.o lib.o
 	$(CC) main.o lib.o -o main.exe
+.PHONY clean
 clean:
 	rm -f *.exe *.o
