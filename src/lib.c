@@ -2,5 +2,5 @@
 #include "lib.h"
 
 void myF(void) {
-    printf("Hello from youFF!\n");
+    printf("Hello from Thanh!\n");
 }
